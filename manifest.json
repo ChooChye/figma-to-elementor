@@ -1,0 +1,9 @@
+{
+  "name": "Figma to Elementor",
+  "id": "1234567890123456789",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "ui.html",
+  "editorType": ["figma", "dev"],
+  "networkAccess": { "allowedDomains": ["none"] }
+}

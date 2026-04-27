@@ -1,0 +1,14 @@
+{
+  "name": "figma-to-elementor",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "esbuild code.ts --bundle --outfile=dist/code.js --platform=browser --target=es2017 --external:figma",
+    "watch": "esbuild code.ts --bundle --outfile=dist/code.js --platform=browser --target=es2017 --external:figma --watch"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.90.0",
+    "esbuild": "^0.21.0",
+    "typescript": "^5.4.0"
+  }
+}
