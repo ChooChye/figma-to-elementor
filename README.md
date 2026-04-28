@@ -1,6 +1,12 @@
-# Figma to Elementor
+<p align="center">
+  <img src="icon.png" alt="Figma to Elementor" width="128" height="128" />
+</p>
 
-Convert Figma frames into Elementor-compatible JSON that you can paste directly into the WordPress editor.
+<h1 align="center">Figma to Elementor</h1>
+
+<p align="center">
+  Convert Figma frames into Elementor-compatible JSON that you can paste directly into the WordPress editor.
+</p>
 
 The plugin walks your selected Figma frames, maps each node to the closest Elementor widget or container, and produces a JSON payload in the Elementor clipboard format. You copy the JSON, switch to WordPress, and paste it onto the canvas — no manual widget-building required.
 
